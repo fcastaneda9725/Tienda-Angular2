@@ -4,11 +4,13 @@ import { MaterializeModule } from 'angular2-materialize';
 
 
 import { AppComponent } from './app.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
